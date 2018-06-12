@@ -1,0 +1,2 @@
+@reboot ./home/pi/Desktop/gidisecure_micro-controller_code/update_script.sh >> /home/pi/Desktop/micron-controller_logs/update_script.log 2>&1
+@reboot /usr/bin/python3 /home/pi/Desktop/gidisecure_micro-controller_code/main_controller.py >> /home/pi/Desktop/micron-controller_logs/micro-controller_code.log 2>&1
